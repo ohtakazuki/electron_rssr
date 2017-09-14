@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RSSリーダー 設定</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/sub.css" rel="stylesheet">
+	<script>
+		window.jQuery = window.$ = require('./js/jquery.min.js');
+	</script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/sub.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h2>サイト設定</h2>
+		<button type="button" class="btn btn-primary" id="save">保存</button>
+		<a class="btn btn-default" href="index.html">キャンセル</a>
+	</div>
+	<div class="contents">
+		<table class="table table-striped table-bordered table-hover">
+			<thead>
+				<tr>
+					<th>サイト名</th>
+					<th>アドレス</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tfoot>
+				<td>
+					<input type="text" class="form-control" id="add_title">
+				</td>
+				<td>
+					<input type="text" class="form-control" id="add_href">
+				</td>
+				<td>
+					<button type="button" class="btn btn-primary" id="add">追加</button>
+				</td>
+			</tfoot>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

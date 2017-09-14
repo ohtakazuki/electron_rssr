@@ -1,0 +1,107 @@
+/**----------------------------------------
+* 全体の指定
+*----------------------------------------*/
+html, body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/**----------------------------------------
+* パネルの指定
+*----------------------------------------*/
+.split-pane-divider {
+    background: #aaa;
+}
+#left-component {
+    height: 100%;
+    width: 15em;
+}
+
+#vertical-divider {
+    left: 15em;
+    width: 5px;
+}
+
+#right-component {
+    left: 15em;
+    margin-left: 5px;
+}
+
+#top-component {
+    bottom: 50%;
+    margin-bottom: 5px;
+}
+
+#horizontal-divider {
+    bottom: 50%;
+    height: 5px;
+}
+
+#bottom-component {
+    height: 50%;
+}
+
+#webview {
+    height: 100%;
+    width: 100%;
+}
+
+/**----------------------------------------
+* 一覧テーブル
+*----------------------------------------*/
+table tr td {
+    cursor: pointer;
+}
+
+table tr td.author{
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+table tr td.title{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    max-width:700px;
+}
+
+table tr td.date{
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+table tr td.favorite{
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+table tr.unread {
+    font-weight: bold;
+}
+
+/* お気に入りボタン */
+span.star {
+    color: #FFCC33;
+}
+
+/* hover色変更 */
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: #DDEEFF;
+}
+/* 選択行 */
+.tractive {
+    background-color: #99DDFF;
+}
+
+/**----------------------------------------
+* サイト一覧
+*----------------------------------------*/
+.site {
+    margin: 8px;
+}
+.siteactive {
+    font-weight: bold;
+}

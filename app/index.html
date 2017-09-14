@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RSSリーダー</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/split-pane.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<script>
+		window.jQuery = window.$ = require('./js/jquery.min.js');
+	</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/split-pane.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="split-pane fixed-left">
+		<div class="split-pane-component" id="left-component">
+			<div class="sites_area">
+			</div>
+		</div>
+		<div class="split-pane-divider" id="vertical-divider"></div>
+		<div class="split-pane-component" id="right-component">
+			<div class="split-pane horizontal-percent">
+				<div class="split-pane-component" id="top-component">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>差出人</th>
+								<th>件名</th>
+								<th>送信日付</th>
+								<th>★</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div class="split-pane-divider" id="horizontal-divider"></div>
+				<div class="split-pane-component" id="bottom-component">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
