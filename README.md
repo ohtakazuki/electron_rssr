@@ -11,3 +11,11 @@ I used to love Thunderbird as a feed reader, but it has become useless now, so I
 electron の勉強も兼ねて作成しています。
 
 I also created electron studies.
+
+機能
+・RSSサイトの登録
+・お気に入りの登録
+
+Thanks
+
+split-pane.js パネル分割ライブラリ
